@@ -13,7 +13,7 @@ add_action('wp_enqueue_scripts','followbec_register_styles');
 function followbec_register_scripts(){
     wp_enqueue_script('follow-bec-bootstrap','followbec_register_scripts','https://code.jquery.com/jquery-3.4.1.slim.min.js', array(),'3.4.1');
     wp_enqueue_script('follow-bec-')
-}
+};
 
 add_action('wp_enqueue_scripts', 'followbec_register_scripts');
 
